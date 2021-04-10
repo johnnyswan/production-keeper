@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    width: 300px;
+
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+#controls {
+    margin-bottom: 15px;
+}
+
+.control {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.control input {
+    margin-right: 10px;
+}
+
+.more {
+    margin-bottom: 10px;
+}
+
+.manage {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.manage button {
+    margin-right: 10px;
+}
+
+#update-container {
+    font-weight: bold;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Production Keeper",
+  "version": "1.0",
+  "description": "Im watching you!",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "webNavigation",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "Production Keeper",
+    "default_popup": "popup.html"
+  }
+}
